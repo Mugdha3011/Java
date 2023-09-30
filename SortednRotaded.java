@@ -27,10 +27,8 @@ public class SortednRotaded {
             //left
             else{
                 return search(arr, tar, si, mid-1);
-            }
-        }
-        
-           
+          }
+         }  
         }
         
     public static void main(String args[]){
@@ -38,11 +36,7 @@ public class SortednRotaded {
         int target = 0;
         int tarIdx = search(arr, target, 0, arr.length-1);
         System.out.println(tarIdx);
-        
-
-
-    }
-        
+    }        
     }
     
 
