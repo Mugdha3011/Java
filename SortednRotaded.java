@@ -1,5 +1,4 @@
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
+//to find the index of the target element in a sorted and rotated array around a pivot
 public class SortednRotaded {
     public static int search(int arr[], int tar, int si, int ei ){
         int mid = (si+ei)/2;
