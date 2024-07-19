@@ -1,9 +1,8 @@
-    import java.io.*;
-    import java.util.Scanner;
+
 
 public class RevString {
     public static void main(String args[]){
-        String str = "sunidhi";
+        String str = "PROGRAMMING";
         String new_str = "";
         char ch;
         for(int i =0; i<str.length(); i++){
